@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D0DCC439C01AFE3979B3C16EE3777A43A19534F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D0DCC439C01AFE3979B3C16EE3777A43A19534F6" : 9223372036854775807,
+    "AA608A8A355DCB0ED51CF35E57FF5543F567D7A0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B06A5C5E-9E6A-4609-A8DD-5C88470312AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D0DCC439C01AFE3979B3C16EE3777A43A19534F6" : "ZXing-ObjC\/",
+    "AA608A8A355DCB0ED51CF35E57FF5543F567D7A0" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZXingObjC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZXingObjC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AgileBits\/onepassword4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA608A8A355DCB0ED51CF35E57FF5543F567D7A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AgileBits\/ZXingObjC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0DCC439C01AFE3979B3C16EE3777A43A19534F6"
+    }
+  ]
+}
