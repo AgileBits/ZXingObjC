@@ -31,26 +31,26 @@
   return self;
 }
 
-- (id)initWithBytes:(int8_t)byte1, ... {
-  va_list args;
-  va_start(args, byte1);
-  unsigned int length = 0;
-  for (int8_t byte = byte1; byte != -1; byte = va_arg(args, int)) {
-    length++;
-  }
-  va_end(args);
+- (id)initWithBytes:(int)byte1, ... {
+	va_list args;
+	va_start(args, byte1);
+	unsigned int length = 0;
+	for (int8_t byte = byte1; byte != -1; byte = va_arg(args, int)) {
+		length++;
+	}
+	va_end(args);
 
-  if ((self = [self initWithLength:length]) && (length > 0)) {
-    va_list args;
-    va_start(args, byte1);
-    int i = 0;
-    for (int8_t byte = byte1; byte != -1; byte = va_arg(args, int)) {
-      _array[i++] = byte;
-    }
-    va_end(args);
-  }
+	if ((self = [self initWithLength:length]) && (length > 0)) {
+		va_list args;
+		va_start(args, byte1);
+		int i = 0;
+		for (int8_t byte = byte1; byte != -1; byte = va_arg(args, int)) {
+			_array[i++] = byte;
+		}
+		va_end(args);
+	}
 
-  return self;
+	return self;
 }
 
 - (void)dealloc {
